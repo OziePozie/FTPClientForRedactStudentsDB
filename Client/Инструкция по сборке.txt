@@ -1,0 +1,12 @@
+Для сборки проекта:
+1. Перейти в папку src. 
+2.Создать в директории папку.
+3. Запустить терминал и ввести следующие команды: 
+  1. javac -cp . Client.java -d yourfoldername
+  2. javac -cp . Commands/*.java Exceptions/*.java Utilities/*.java -d yourfoldername
+4. В новой папке в терминале ввести:
+     jar cvfe Client.jar Client *.class Commands/*.class Exceptions/*.class Utilities/*.class
+5. Запустить получившийся jar файл
+     java -jar Client.jar
+
+
