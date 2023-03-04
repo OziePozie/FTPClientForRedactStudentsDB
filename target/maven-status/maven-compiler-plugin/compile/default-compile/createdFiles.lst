@@ -1,0 +1,11 @@
+Commands\GetStudentNameByIdCommand.class
+Main.class
+Utilities\CommandHandler.class
+Commands\AddCommand.class
+Commands\RemoveCommand.class
+Utilities\Student.class
+Utilities\ParseJSON.class
+Utilities\Connection.class
+Utilities\DataHandler.class
+Commands\GetListByNameCommand.class
+Commands\ExitCommand.class
